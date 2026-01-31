@@ -455,11 +455,11 @@ nav .fa-solid {
   /* Show image only inside #header on mobile; images are hidden elsewhere */
 
   .header-text {
-    margin-top: 100%;
+    margin-top: 140%;
   }
 
   .header-text h1 {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: -10px;
     text-align: center;
   }
@@ -483,7 +483,7 @@ nav .fa-solid {
     display: flex;
     justify-content: center;
     gap: 5px;
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   .social-icons a {
