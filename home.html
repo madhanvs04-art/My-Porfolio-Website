@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madhan|Porfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="logo.png" />
+    <script
+      src="https://kit.fontawesome.com/11759d6b66.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Loader -->
+    <div id="loader" role="status" aria-live="polite" aria-busy="true">
+      <div class="spinner" aria-hidden="true"></div>
+      <span class="sr-only">Loading…</span>
+    </div>
+
+    <!-- Success Message -->
+    <div id="successMessage" class="success-message">
+      <i class="fa-solid fa-circle-check"></i>
+      <span>Your Message Sent Successfully! </span>
+    </div>
+
+    <div id="header">
+      <div class="container">
+        <nav data-aos="fade-down" data-aos-duration="1000">
+          <img
+            src="Picsart_25-12-29_14-58-47-990.png"
+            alt="logo"
+            class="logo"
+          />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#Aboutme">Aboutme</a></li>
+            <li><a href="#serives">Services</a></li>
+            <li><a href="#Porfolio">Projects</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+            <i class="fa-solid fa-x" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-list" onclick="openmenu()"></i>
+        </nav>
+        <!-- <div class="moblie-pic">
+                 <img src="WhatsApp Image 2025-12-30 at 10.02.49 AM.jpeg"  alt="Profile" width="200px">
+            </div> -->
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          class="header-text"
+          style="padding: 0"
+        >
+          <p>Web Developer</p>
+          <h1>Hii, I'm <span>Madhan</span></h1>
+          <a href="Madhan V.S.pdf" download="Madhan V.S.pdf" class="btn btn2"
+            >Download CV</a
+          >
+          <div class="social-icons">
+            <a href="https://www.instagram.com/maddy_v3_/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/madhan-v-s-31470230b/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/madhanvs04-art"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://wa.me/916381507954?text=Hello%20Madhan%21%20I%20saw%20your%20portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------------------------------------------ABOUT SECTION----------------------------------------------------------- -->
+
+    <div id="Aboutme">
+      <div data-aos="fade-up" data-aos-duration="1000" class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="About.me Image.jpeg" height="400px" width="400px" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-titile">ABOUT ME !</h1>
+            <p>
+              I am Madhan V.S, a Passionate and Self-Motivated B.Tech
+              Information Technology Student at Sri Ramanujar Engineering
+              College, Affiliated with Anna University, Currently Pursuing my
+              Final Year with a CGPA of 7.8. I have a strong interest in
+              Front-End Development and Programming, with hands-on knowledge in
+              HTML, CSS, JavaScript, C, C++, and Python.
+            </p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Front End Development</span><br />Creating Websites
+                  Using HTML,CSS,Java script,React.js
+                </li>
+                <li><span>Back End Development</span><br />Using Sql,Java,</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Jayaram Institute,Guduvanchery</span><br />Completed
+                  basics of C, C++, Python, and Java. First step in developing
+                  programming skills.
+                </li>
+                <li>
+                  <span>N.Tech Technology,Tambaram</span><br />Completed Full
+                  Stack Development Internship, gaining hands-on experience
+                  building responsive web applications using front-end and
+                  back-end technologies.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>10th</span><br />PTVS HIGH SCHOOL<br />Completed
+                  Secondary School Education (10th) at P.T.V.S. High School in
+                  2020, securing 86%.
+                </li>
+                <li>
+                  <span>12th</span><br />GOV BOYS HIGH SCHOOL <br />Completed
+                  Higher Secondary Education (12th) at Government Boys Higher
+                  Secondary School in 2022 with 84%.
+                </li>
+                <li>
+                  <span>B.TECH IT</span><br />SRI RAMANUJAR ENGINEERING COLLEGE
+                  <br />Currently pursuing final year with a CGPA of 7.8.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------------------------------------------SERVICES----------------------------------------------------------------- -->
+
+    <div id="serives">
+      <div data-aos="fade-up" data-aos-duration="1000" class="sub-title">
+        <h1 class="sub-titile">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              I craft visually appealing and functional web designs that balance
+              creativity with usability. My designs emphasize layout, color
+              harmony, and modern trends, ensuring that every website not only
+              looks great but also delivers a smooth and engaging experience for
+              visitors.
+            </p>
+            <a href="#contact-section">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-codepen"></i>
+            <h2>Website Development</h2>
+            <p>
+              I design and develop responsive websites using modern technologies
+              like HTML, CSS, JavaScript, and React. My focus is on creating
+              clean, user-friendly interfaces that deliver smooth navigation and
+              engaging digital experiences for clients.
+            </p>
+            <a href="#contact-section">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-bolt"></i>
+            <h2>Logo Design</h2>
+            <p>
+              I create unique and memorable logos that capture the essence of a
+              brand. My designs emphasize simplicity, creativity, and strong
+              visual identity, helping businesses stand out and communicate
+              their values effectively
+            </p>
+            <a href="#contact-section">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-camera"></i>
+            <h2>Video Editing</h2>
+            <p>
+              I edit videos to produce professional, engaging content tailored
+              to client needs. From trimming and transitions to adding effects
+              and sound, I ensure that the final output is polished, impactful,
+              and ready for social media or professional use.
+            </p>
+            <a href="#contact-section">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-figma"></i>
+            <h2>UI & UX Design</h2>
+            <p>
+              I specialize in designing intuitive user interfaces and enhancing
+              user experiences. My work focuses on layout, color schemes, and
+              usability, ensuring that digital products are both visually
+              appealing and easy to interact with.
+            </p>
+            <a href="#contact-section">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-fire"></i>
+            <h2>Banner & Ad Design</h2>
+            <p>
+              I design eye-catching banners and digital ads that help brands
+              communicate their message effectively. My focus is on creating
+              visuals that are not only attractive but also aligned with the
+              client’s goals — whether it’s for social media campaigns, website
+              promotions, or online advertisements. Each design is tailored to
+              capture attention, drive engagement, and leave a lasting
+              impression on the audience.
+            </p>
+            <a href="#contact-section">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------------------Projects------------------------------------------------------- -->
+
+    <div id="Porfolio">
+      <div data-aos="fade-up" data-aos-duration="1000" class="container">
+        <h1 class="sub-titile">My Works</h1>
+        <div class="work-list">
+          <div class="work">
+            <img
+              src="E.commerce.jpg"
+              alt="E-commerce"
+              height="400px"
+              width="200px"
+            />
+            <div class="layer">
+              <h3>E-Commerce Website</h3>
+              <p>
+                I created a front‑end e‑commerce website using HTML, CSS, and
+                JavaScript, featuring a product search function. The project
+                demonstrates my ability to design user‑friendly shopping
+                interfaces and implement interactive features that enhance the
+                customer experience.
+              </p>
+              <a href="https://frabjous-otter-8ff5ea.netlify.app/"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="Screenshot 2026-01-01 173236.png"
+              alt="Tudu-list"
+              height="400px"
+              width="200px"
+            />
+            <div class="layer">
+              <h3>Tudu-list</h3>
+              <p>
+                I built an advanced to‑do list application with features such as
+                email login and the ability to add “unforgettable memories” to
+                the list. This project highlights my focus on usability,
+                personalization, and creative functionality beyond a standard
+                task manager.
+              </p>
+              <a href="https://madhan-todu-list.netlify.app/"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="Porfolio.jpg"
+              alt="Portfolio"
+              height="400px"
+              width="200px"
+            />
+            <div class="layer">
+              <h3>Personal Portfolio</h3>
+              <p>
+                I developed a personal portfolio website using HTML, CSS, and
+                JavaScript to showcase my skills and projects. The site
+                emphasizes clean design, responsive layouts, and smooth
+                navigation, serving as a professional platform to present my
+                work.
+              </p>
+              <a href="#header"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- <a href="#" class="btn">See More </a> -->
+      </div>
+    </div>
+    <!-- -------------------------------------------------Contact ----------------------------------------------------------------->
+    <div id="contact-section">
+      <div data-aos="fade-up" data-aos-duration="1000" class="conatiner">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i> madhan04@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> 6381507954</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/maddy_v3_/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/madhan-v-s-31470230b/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/madhanvs04-art"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://wa.me/916381507954?text=Hello%20Madhan%21%20I%20saw%20your%20portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form
+              action="mailto:madhanvs04@gmail.com"
+              method="POST"
+              enctype="text/plain"
+              id="contactForm"
+            >
+              <input
+                type="text"
+                name="Name"
+                placeholder="ENTER YOUR NAME"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="ENTER YOUR EMAIL"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="YOUR MESSAGE"
+                required
+              ></textarea>
+              <button type="submit" class="sub-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Thanks For Watching My Website<i class="fa-solid fa-heart"></i></p>
+    </div>
+
+    <!-- Custom cursor
+    <div id="custom-cursor" aria-hidden="true"></div> -->
+
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+    <!-- <script>
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('0(1);',2,2,'alert|Hello'.split('|'),0,{}))
+</script> -->
+  </body>
+</html>
